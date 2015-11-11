@@ -10,10 +10,10 @@
       "email": "john.crepezzi@gmail.com"
     }
   ],
-  "name": "tumblr.js",
+  "name": "@jigsaw/tumblr",
   "description": "Official JavaScript client for the Tumblr API",
   "homepage": "https://github.com/tumblr/tumblr.js",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "repository": {
     "url": "https://github.com/tumblr/tumblr.js"
   },
@@ -23,6 +23,7 @@
   },
   "main": "./index",
   "dependencies": {
+    "browser-request": "^0.3.3",
     "request": "^2.12.0"
   },
   "devDependencies": {
